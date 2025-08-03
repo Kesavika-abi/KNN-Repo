@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🛒 Product Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🛍 E-commerce Product Recommendation</h1>
+        <p>Select a product to get similar recommendations</p>
+
+        <form action="/recommend" method="POST">
+            <label for="product">Choose a product:</label>
+            <select name="product" required>
+                {% for p in products %}
+                <option value="{{ p }}">{{ p }}</option>
+                {% endfor %}
+            </select>
+
+            <button type="submit">Get Recommendations</button>
+        </form>
+    </div>
+</body>
+</html>
