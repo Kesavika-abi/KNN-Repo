@@ -77,7 +77,7 @@ http://127.0.0.1:5000/
 
  Machine Learning educational projects
 
-### 📌 Future Enhancements
+###  Future Enhancements
 Add content-based filtering with product descriptions
 
 Allow multiple product comparisons
