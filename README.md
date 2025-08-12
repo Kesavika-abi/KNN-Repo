@@ -61,6 +61,7 @@ python app.py
 Open in your browser:
 
 http://127.0.0.1:5000/
+
 ##  Screenshots
 
 ###  Input Form
@@ -71,15 +72,15 @@ http://127.0.0.1:5000/
 
 
 ###  Use Cases
- E-commerce platforms for product recommendations
+ - E-commerce platforms for product recommendations
 
- Retail analytics tools
+ - Retail analytics tools
 
- Machine Learning educational projects
+ - Machine Learning educational projects
 
 ###  Future Enhancements
-Add content-based filtering with product descriptions
+ - Add content-based filtering with product descriptions
 
-Allow multiple product comparisons
+ - Allow multiple product comparisons
 
-Deploy online using Heroku or Render
+ - Deploy online using Heroku or Render
